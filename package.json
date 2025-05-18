@@ -1,0 +1,23 @@
+{
+  "name": "cosmos-defi-app",
+  "version": "1.0.0",
+  "description": "CosmJS application with transfer, mining and staking features",
+  "main": "src/index.js",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "get-tokens": "node scripts/get-tokens.js",
+    "transfer": "node scripts/run-transfer.js",
+    "stake": "node scripts/run-staking.js",
+    "mining": "node scripts/run-mining.js",
+    "all": "npm run setup && npm run get-tokens && npm run transfer && npm run stake && npm run mining"
+  },
+  "dependencies": {
+    "@cosmjs/stargate": "^0.31.0",
+    "@cosmjs/proto-signing": "^0.31.0",
+    "@cosmjs/launchpad": "^0.27.1",
+    "@cosmjs/crypto": "^0.31.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "chalk": "^4.1.2"
+  }
+}
