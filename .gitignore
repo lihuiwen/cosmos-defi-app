@@ -1,0 +1,23 @@
+# 依赖包
+node_modules/
+
+# 环境变量
+.env
+
+# 账户信息
+accounts.json
+keystore.json
+
+# 日志
+logs/
+*.log
+
+# IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS 文件
+.DS_Store
+Thumbs.db
